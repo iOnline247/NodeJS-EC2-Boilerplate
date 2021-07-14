@@ -10,12 +10,14 @@
   },
   "plugins": ["@typescript-eslint"],
   "extends": [
-    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "airbnb-base",
     "prettier"
   ],
-  "ignorePatterns": "dist/**/*",
+  "ignorePatterns": ["dist/**/*", "debug.js"],
   "rules": {
+    "no-console": "off",
+    "no-restricted-syntax": ["off", "ForOfStatement"],
     // disable the rule for all files
     "@typescript-eslint/explicit-module-boundary-types": "off"
   },
