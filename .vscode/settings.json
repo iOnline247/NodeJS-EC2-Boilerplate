@@ -9,7 +9,8 @@
     "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "all",
-    "editor.acceptSuggestionOnEnter": "off"
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.cursorBlinking": "blink",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
